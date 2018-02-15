@@ -11,6 +11,12 @@ fields:
   type: text
   hidden: false
   default: 
+- type: tag_list
+  name: categories
+  label: Categories
+- type: tag_list
+  name: tags
+  label: Tags
 - name: draft
   label: Draft
   type: boolean
