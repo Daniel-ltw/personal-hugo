@@ -17,6 +17,10 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+- type: text
+  name: type
+  label: Type
+  default: post
 - name: draft
   label: Draft
   type: boolean
