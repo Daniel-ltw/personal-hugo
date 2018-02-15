@@ -1,35 +1,30 @@
 [[companies]]
-  name = "Alibaba"
-  name_link = "http://alibabagroup.com/en/global/home"
-  github = "https://github.com/alibaba"
-  crunchbase = "https://www.crunchbase.com/organization/alibaba"
-
+crunchbase = "https://www.crunchbase.com/organization/alibaba"
+github = "https://github.com/alibaba"
+name = "Alibaba"
+name_link = "http://alibabagroup.com/en/global/home"
 [[companies]]
-  name = "Baidu"
-  name_link = "http://ir.baidu.com/"
-  github = "https://github.com/baidu"
-  crunchbase = "https://www.crunchbase.com/organization/baidu"
-
+crunchbase = "https://www.crunchbase.com/organization/baidu"
+github = "https://github.com/baidu"
+name = "Baidu"
+name_link = "http://ir.baidu.com/"
 [[companies]]
-  name = "Didi Chuxing"
-  name_link = "http://www.didichuxing.com/en/"
-  github = "https://github.com/didi"
-  crunchbase = "https://www.crunchbase.com/organization/didi-dache"
-
+crunchbase = "https://www.crunchbase.com/organization/didi-dache"
+github = "https://github.com/didi"
+name = "Didi Chuxing"
+name_link = "http://www.didichuxing.com/en/"
 [[companies]]
-  name = "Huawei"
-  name_link = "http://www.huawei.com/en/"
-  github = "https://github.com/Huawei"
-  crunchbase = "https://www.crunchbase.com/organization/huawei"
-
+crunchbase = "https://www.crunchbase.com/organization/huawei"
+github = "https://github.com/Huawei"
+name = "Huawei"
+name_link = "http://www.huawei.com/en/"
 [[companies]]
-  name = "Tencent"
-  name_link = "https://www.tencent.com/en-us/"
-  github = "https://github.com/Tencent"
-  crunchbase = "https://www.crunchbase.com/organization/tencent"
-
+crunchbase = "https://www.crunchbase.com/organization/tencent"
+github = "https://github.com/Tencent"
+name = "Tencent"
+name_link = "https://www.tencent.com/en-us/"
 [[companies]]
-  name = "Xiaomi"
-  name_link = "http://www.mi.com/index.html"
-  github = "https://github.com/XiaoMi"
-  crunchbase = "https://www.crunchbase.com/organization/xiaomi"
+crunchbase = "https://www.crunchbase.com/organization/xiaomi"
+github = "https://github.com/XiaoMi"
+name = "Xiaomi"
+name_link = "http://www.mi.com/index.html"

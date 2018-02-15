@@ -1,11 +1,11 @@
 +++
-title = "Github repo for China's Major Tech Firm"
-date = "2018-02-07 22:06:24 +0000"
 categories = ["Github"]
+date = "2018-02-07T22:06:24Z"
 tags = ["github", "china", "tech", "giant"]
+title = "Github repo for China's Major Tech Firm"
 type = "post"
-+++
 
++++
 Recently, I would browse through [Github](https://github.com) and notice how these companies have started to show up.
 
 Here is a list that I have compiled.
