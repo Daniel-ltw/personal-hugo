@@ -1,0 +1,19 @@
+{{ range .Site.Data.github.china.companies }}
+  <tr>
+    <td>
+      <div>
+        <a href="{{ .name_link }}"><b>{{ .name }}</b></a>
+      </div>
+    </td>
+    <td>
+      <div>
+        <a href="{{ .github }}">{{ .github }}</a>
+      </div>
+    </td>
+    <td>
+      <div>
+        <a href="{{ .crunchbase }}">{{ .crunchbase }}</a>
+      </div>
+    </td>
+  </tr>
+{{ end }}
