@@ -1,6 +1,6 @@
 +++
 categories = ["Digital Assets after Death"]
-date = "2018-02-26 09:58:09"
+date = "2018-02-26T09:58:09Z"
 tags = ["death", "digital", "estate", "asset"]
 title = "Online Assets after your Death"
 type = "post"
