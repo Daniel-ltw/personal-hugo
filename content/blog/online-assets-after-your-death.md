@@ -1,5 +1,5 @@
 +++
-categories = ["digital assets after death"]
+categories = ["Digital Assets after Death"]
 date = "2018-02-26T08:31:30+00:00"
 draft = true
 tags = ["death", "digital", "estate", "asset"]
