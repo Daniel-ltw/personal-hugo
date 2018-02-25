@@ -1,4 +1,6 @@
 ---
+pages:
+- blog/online-assets-after-your-death.md
 hide_body: false
 fields:
 - name: title
