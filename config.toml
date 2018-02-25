@@ -1,5 +1,4 @@
 baseURL = "/"
-# googleAnalytics = ""
 languageCode = "en-us"
 paginate = 3
 pluralizeListTitles = false
