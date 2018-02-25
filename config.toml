@@ -1,105 +1,202 @@
 baseURL = "/"
 languageCode = "en-us"
-paginate = 3
-pluralizeListTitles = false
-preserveTaxonomyNames = true
-theme = "future-imperfect"
 title = "Daniel Leong's Blog"
-[blackfriday]
-extensions = ["laxHtmlBlocks"]
-[[menu.main]]
-identifier = "fa fa-tags"
-name = "Tags"
-url = "/tags/"
-weight = 2
-[[menu.main]]
-identifier = "fa fa-home"
-name = "Home"
-url = "/"
-weight = 1
+theme = "future-imperfect"
+preserveTaxonomyNames = true
+paginate = 3
+# disqusShortname = "shortname"
+# googleAnalytics = ""
+pluralizeListTitles = false
+
 [params]
-categoriesbycount = true
-customcss = ["default"]
-customjs = ["default"]
-description = "Daniel Leong personal blog hosted by Github Pages"
-disable_highlight = false
-dynamictitles = true
-faviconversion = ""
-highlightjscdn = "//cdn.bootcss.com"
-highlightjslang = ["r", "yaml", "css"]
-highlightjstheme = "github"
-highlightjsversion = "9.11.0"
-includereadingtime = true
-loadfavicon = false
-navbartitle = "Daniel Leong's Blog"
-rssappearatbottom = true
-rssappearattop = true
-showsidebarcategories = true
-socialappearatbottom = true
-socialappearattop = true
-socialshare = true
-socialshareemail = true
-socialsharefacebook = true
-socialsharegoogleplus = true
-socialsharelinkedin = true
-socialsharepinterest = true
-socialsharereddit = true
-socialsharestumbleupon = true
-socialsharetwitter = true
-viewmorepostlink = "/blog"
-[params.intro]
-about = "<p>Daniel Leong has done his Bachelor of Engineering(Hons) degree at Victoria University of Wellington. His major was Network Engineering.</p><p>After his studies, he has worked at New Zealand Stock Exchange as a Junior Ruby on Rails Developer and later on got promoted to Senior Software Developer.</p><p>His current role, Senior Software Designer @ Strategyblocks, involved a fair amount of devops related work. This includes systems and software design and implementation.</p>"
-header = "Daniel Leong"
-paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
-[params.intro.pic]
-alt = "Geeky Daniel"
-circle = true
-imperfect = false
-src = "https://lh3.googleusercontent.com/-kEJGPOcJVZY/AAAAAAAAAAI/AAAAAAAAARc/ZILL9lbuuZ0/s36-p-k-no/photo.jpg"
-width = ""
-[params.postamount]
-sidebar = 5
+  # Sets the meta tag description
+  description          = "Daniel Leong personal blog hosted by Github Pages"
+  # Sets the navbarTitle that appears in the top left of the navigation bar
+  navbarTitle          = "Daniel Leong's Blog"
+  # Sets where "View More Posts" links
+  viewMorePostLink     = "/blog"
+
+# Optional Params
+  # Sets navbarTitle to match the section of the website
+  dynamicTitles        = true
+  # Sets RSS icons to appear on the sidebar with the social media buttons
+  rssAppearAtTop       = true
+  rssAppearAtBottom    = true
+  # Sets Social Media icons to appear on the sidebar
+  socialAppearAtTop    = true
+  socialAppearAtBottom = true
+  # Sets Categories to sort by number of posts instead of alphabetical
+  categoriesByCount    = true
+  # set to show or to hide categories in the sidebar
+  showSidebarCategories = true
+  # Sets Estimated Reading Time to appear in post headers
+  includeReadingTime   = true
+  # Sets the Favicon and Version for the site. Default support is for
+  # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
+  # These are stored in the favicon folder. See the following for more information:
+  # https://github.com/audreyr/favicon-cheat-sheet
+  loadFavicon          = false
+  faviconVersion       = ""
+  # Sets Social Share links to appear on posts
+  socialShare          = true
+  # Sets specific share to appear on posts (default behavior is to appear)
+  socialShareTwitter   = true
+  socialShareGoogleplus = true
+  socialShareFacebook  = true
+  socialShareReddit    = true
+  socialShareLinkedin  = true
+  socialShareStumbleupon = true
+  socialSharePinterest = true
+  socialShareEmail     = true
+
+  # Load custom CSS or JavaScript files. The variable is an array so that you
+  # can load multiple files if necessary. You can also load the standard theme
+  # files by adding the value, "default".
+  # customCSS            = ["default", "/path/to/file"]
+  # customJS             = ["default", "/path/to/file"]
+  customCSS            = ["default"]
+  customJS             = ["default"]
+
+  # options for highlight.js (version, additional languages, and theme)
+  disable_highlight = false # set to true to disable Highlight
+  highlightjsVersion = "9.11.0"
+  highlightjsCDN = "//cdn.bootcss.com"
+  highlightjsLang = ["r", "yaml", "css"]
+  highlightjsTheme = "github"
+
+# Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
+# due to its ease of use. Feel free to check out both and decide what you would
+# prefer to use. See Staticman.yml for additional settings.
 [params.staticman]
-branch = "master"
-repo = "daniel-ltw.github.io"
-staticman = true
-username = "daniel-ltw"
+  # Sets Statiman to be active
+  staticman = true
+  # Sets the location for Staticman to connect to
+  username  = "daniel-ltw"
+  repo      = "daniel-ltw.github.io"
+  branch    = "master"
+
+#  [params.staticman.recaptcha]
+#    sitekey = "SITE_KEY"
+#    secret  = "ENCRYPTED_SECRET"
+
+  # These are optional params related to the sidebar. They are recommended, but not
+  # required for proper functionality. HTML is supported within the params.
+[params.intro]
+  header    = "Daniel Leong"
+
+  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+
+  about     = "<p>Daniel Leong has done his Bachelor of Engineering(Hons) degree at Victoria University of Wellington. His major was Network Engineering.</p><p>After his studies, he has worked at New Zealand Stock Exchange as a Junior Ruby on Rails Developer and later on got promoted to Senior Software Developer.</p><p>His current role, Senior Software Designer @ Strategyblocks, involved a fair amount of devops related work. This includes systems and software design and implementation.</p>"
+
+  # This appears at the top of the sidebar above params.intro.header.
+  # A width of less than 100px is recommended from a design perspective.
+  [params.intro.pic]
+    src       = "https://lh3.googleusercontent.com/-kEJGPOcJVZY/AAAAAAAAAAI/AAAAAAAAARc/ZILL9lbuuZ0/s36-p-k-no/photo.jpg"
+    # Sets Image to be a cirlce
+    circle    = true
+    # Sets Image to be Future Imperfect's hexagon
+    imperfect = false
+    width     = ""
+    alt       = "Geeky Daniel"
+
+[params.postAmount]
+# Sets the number of recent posts to show in the sidebar. The default value is 5.
+    sidebar = 5
+
+# Sets the menu items in the navigation bar
+# Identifier prepends a Font Awesome icon to the menu item
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  identifier = "fa fa-home"
+  weight = 1
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  identifier = "fa fa-tags"
+  weight = 2
+
+# [[menu.main]]
+#   name = "About"
+#   url = "/about/"
+#   identifier = "fa fa-id-card-o"
+#   weight = 2
+#
+# [[menu.main]]
+#   name = "Blog"
+#   url = "/blog/"
+#   identifier = "fa fa-newspaper-o"
+#   weight = 3
+#
+# [[menu.main]]
+#   name = "Itemized"
+#   url = "/itemized/"
+#   identifier = "fa fa-list"
+#   weight = 4
+#
+# [[menu.main]]
+#   name = "Categories"
+#   url = "/categories/"
+#   identifier = "fa fa-sitemap"
+#   weight = 5
+#
+# [[menu.main]]
+#   name = "Contact"
+#   url = "/contact/"
+#   identifier = "fa fa-envelope-o"
+#   weight = 6
+
+[blackfriday]
+  extensions = ["laxHtmlBlocks"]
+
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted. These are the icons affected by socialAppearAtTop
+# and socialAppearAtBottom.
 [social]
-behance = ""
-bitbucket = ""
-codepen = ""
-deviantart = ""
-dribbble = ""
-email = "daniel.ltw@gmail.com"
-facebook = ""
-flickr = ""
-foursquare = ""
-github = "daniel-ltw"
-gitlab = ""
-googleplus = ""
-googlescholar = ""
-instagram = ""
-jsfiddle = ""
-linkedin = "danielleongtuckwah"
-linkedin_company = ""
-medium = "daniel.ltw"
-orcid = ""
-pinterest = ""
-qq = ""
-quora = ""
-reddit = ""
-researchgate = ""
-skype = ""
-slideshare = ""
-snapchat = ""
-stackoverflow = "5900992"
-telegram = ""
-tumblr = ""
-twitter = "casilan"
-vimeo = ""
-vine = ""
-wechat = ""
-whatsapp = ""
-wordpress = ""
-xing = ""
-youtube = ""
+  # Coding Communities
+  github           = "daniel-ltw"
+  gitlab           = ""
+  stackoverflow    = "5900992" # User Number
+  bitbucket        = ""
+  jsfiddle         = ""
+  codepen          = ""
+  # Visual Art Communities
+  deviantart       = ""
+  flickr           = ""
+  behance          = ""
+  dribbble         = ""
+  # Publishing Communities
+  wordpress        = ""
+  medium           = "daniel.ltw"
+  # Professional/Business Oriented Communities
+  linkedin         = "danielleongtuckwah"
+  linkedin_company = ""
+  foursquare       = ""
+  xing             = ""
+  slideshare       = ""
+  # Social Networks
+  facebook         = ""
+  googleplus       = ""
+  reddit           = ""
+  quora            = ""
+  youtube          = ""
+  vimeo            = ""
+  whatsapp         = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat         = ""
+    qq             = "" # User ID Number
+  instagram        = ""
+  tumblr           = ""
+  twitter          = "casilan"
+  skype            = ""
+  snapchat         = ""
+  pinterest        = ""
+  telegram         = ""
+  vine             = ""
+  googlescholar    = ""
+  orcid            = ""
+  researchgate     = ""
+  # Email
+  email = "daniel.ltw@gmail.com"

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openpilot on Daniel Leong&#39;s Blog</title>
+    <link>/tags/openpilot/</link>
+    <description>Recent content in Openpilot on Daniel Leong&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Feb 2018 22:22:40 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/openpilot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Open Source Autonomous Driving for Everyone</title>
+      <link>/blog/open_source_autonomous_driving/</link>
+      <pubDate>Sun, 11 Feb 2018 22:22:40 +0000</pubDate>
+      
+      <guid>/blog/open_source_autonomous_driving/</guid>
+      <description>Had a read on Medium this morning and saw an article that relates to autonomous driving.
+Eon uses Comma.AI OpenPilot project to help automate your vehicle. You have to hook it up to your vehicle&amp;rsquo;s CAN bus/ODB2 system to allow it to detect and maneuver the vehicle for you, this is only possible if your vehicle has Adaptive Cruise Control. Eon uses a front facing dashcam to capture what is happening on the road in front of your vehicle and the algorithm will do it&amp;rsquo;s job in telling the vehicle what to do.</description>
+    </item>
+    
+  </channel>
+</rss>

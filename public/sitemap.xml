@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/blog/open_source_autonomous_driving/</loc>
+    <lastmod>2018-02-11T22:22:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/china_github/</loc>
+    <lastmod>2018-02-07T22:06:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/autonomous/</loc>
+    <lastmod>2018-02-11T22:22:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/autonomous-driving/</loc>
+    <lastmod>2018-02-11T22:22:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2018-02-11T22:22:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2018-02-11T22:22:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/china/</loc>
+    <lastmod>2018-02-07T22:06:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/commaai/</loc>
+    <lastmod>2018-02-11T22:22:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-02-11T22:22:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/driving/</loc>
+    <lastmod>2018-02-11T22:22:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/giant/</loc>
+    <lastmod>2018-02-07T22:06:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2018-02-11T22:22:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/github/</loc>
+    <lastmod>2018-02-07T22:06:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/openpilot/</loc>
+    <lastmod>2018-02-11T22:22:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-02-11T22:22:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tech/</loc>
+    <lastmod>2018-02-07T22:06:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -2,6 +2,8 @@ FROM golang:1.9-alpine
 
 WORKDIR /app
 
+ENV TZ='Pacific/Auckland'
+
 RUN apk --update --no-cache add git && \
   go get github.com/magefile/mage && \
   go get -d github.com/gohugoio/hugo && \

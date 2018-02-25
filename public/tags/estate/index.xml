@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Estate on Daniel Leong&#39;s Blog</title>
+    <link>/tags/estate/</link>
+    <description>Recent content in Estate on Daniel Leong&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/estate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Online Assets after your Death</title>
+      <link>/blog/online_assets_after_your_death/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/online_assets_after_your_death/</guid>
+      <description>Just stumbled on to a article in Medium.com which is related to the current title.
+It just got me thinking about what I might need to do with my digital estates/assets.
+Using the search engine, I stumble upon various articles that covers this very topic. The following links do cover the various thoughts and concerns that people have thought of. I personally do favor the last 2 links for less marketed and more general opinions towards the topic.</description>
+    </item>
+    
+  </channel>
+</rss>
